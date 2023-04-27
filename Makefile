@@ -1,12 +1,17 @@
 # Makefile for Logisim Installation 
 
-JAR = logisim_evolution.jar
+JAR = logisim-evolution.jar
 BIN = logi
+CC = gcc
 
-install:
+.PHONY: install, uninstall
+
+build:
+	$(CC) logi.c -o $(BIN) -DJARNAME=\"$(JAR)\" 
+
+install: build
 	mkdir -p /usr/local/jar
 	cp $(JAR) /usr/local/jar
-	cc logi.c -o $(BIN)
 	mv $(BIN) /usr/local/bin 
 
 uninstall:
