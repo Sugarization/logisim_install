@@ -9,12 +9,17 @@ https://github.com/logisim-evolution/logisim-evolution
 1. Unix-like OS with C compiler and make.
 2. Java Runtime Environment (version 16+)
 
-## Install (you might need root privilege to do so):
+## Install:
 ```
 git clone https://github.com/Sugarization/logisim_install.git
 cd logisim_install
 make install
 ```
+alternatively, to install version 2.14.6 to meet course requirements, use
+```
+make install_old
+```
+instead. See Makefile for installation details.
 
 ## Uninstall: (in the repo folder)
 ```
