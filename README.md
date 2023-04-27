@@ -15,7 +15,13 @@ git clone https://github.com/Sugarization/logisim_install.git
 cd logisim_install
 make install
 ```
-alternatively, to install version 2.14.6 to meet course requirements, use
+On MacOS, you probably need to modify PATH, by adding
+```
+export PATH="$HOME/.local/bin:$PATH"
+```
+to ~/.zshrc (or ~/.bashrc, if your system shell is BASH)
+
+Alternatively, to install version 2.14.6 to meet course requirements, use
 ```
 make install_old
 ```
