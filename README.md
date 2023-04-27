@@ -20,3 +20,13 @@ make install
 ```
 make uninstall
 ```
+
+## Usage:
+```
+logi [file1] [file2] ...
+```
+You may use 
+```
+logi *.circ
+```
+to open all _.circ_ files in the current folder.
