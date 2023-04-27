@@ -7,7 +7,7 @@ https://github.com/logisim-evolution/logisim-evolution
 
 ## Prerequisites: 
 1. Unix-like OS with C compiler and make.
-2. Java Runtime Environment (16+)
+2. Java Runtime Environment (version 16+)
 
 ## Install:
 ```
